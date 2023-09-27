@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 .home {
   margin-top: 150px;
-  margin-right: 500px;
+  margin-right: 800px;
   position: relative;
   left: 10%;
   right: 10%;
@@ -100,9 +100,8 @@ nav ul li a:hover {
   width: 350px;
   height: auto;
   position: absolute;
-  left: 80%;
-  top: 20%;
-  transform: translateX(-70%);
+  margin-left: 680px;
+  margin-top: -200px;
 }
 
 .about {
