@@ -143,6 +143,7 @@ nav ul li a:hover {
 .skill {
   height: 65vh;
   padding: 2% 10% 10%;
+  margin-bottom: 20px;
 }
 
 .skill-desc {
@@ -166,6 +167,8 @@ nav ul li a:hover {
   display: flex;
   text-align: justify;
   justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .box-1,
