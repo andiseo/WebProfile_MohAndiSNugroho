@@ -266,3 +266,33 @@ input[type="submit"]:hover {
   border: 2px solid #79765f;
   color: #ccc8aa;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-icons {
+  margin: 15px 10px;
+  display: flex;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #ccc8aa;
+  background-color: #4d4d4d;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.social-icons i {
+  font-size: 25px;
+  margin: 10px 0px;
+}
