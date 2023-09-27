@@ -141,7 +141,7 @@ nav ul li a:hover {
 }
 
 .skill {
-  height: 65vh;
+  height: 35vh;
   padding: 2% 10% 10%;
   margin-bottom: 20px;
 }
@@ -174,7 +174,7 @@ nav ul li a:hover {
 .box-1,
 .box-2,
 .box-3 {
-  width: 350px;
+  width: 320px;
   height: auto;
   align-items: center;
   justify-content: center;
@@ -203,4 +203,66 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   margin: 0px 5px;
+}
+
+.contact {
+  height: 65vh;
+  background-color: #ccc8aa;
+  padding: 2% 10% 10%;
+  margin: auto;
+}
+
+.contact-desc {
+  margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1) {
+  font-weight: bold;
+  color: #4d4d4d;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.contact-desc p:nth-child(2) {
+  color: #4d4d4d;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+input[type="text"],
+select,
+textarea {
+  display: block;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #79765f;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 10%;
+  border: 2px solid #79765f;
+  border-radius: 10px;
+  height: 30px;
+  margin: auto;
+  background-color: whitesmoke;
+  color: #4d4d4d;
+}
+
+input[type="submit"]:hover {
+  background-color: #4d4d4d;
+  border: 2px solid #79765f;
+  color: #ccc8aa;
 }
